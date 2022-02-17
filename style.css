@@ -1,0 +1,44 @@
+canvas {
+  position:absolute;
+  left: 25%;
+  width: 80%;
+  height: 80%;
+  padding: 20px;
+
+  }
+  body{
+    background-image: url("bgbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  h1{
+    align-content: center;
+  }
+  .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+    margin-top: auto;
+  }
+  .div1{
+    background-color: azure;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+    box-sizing: border-box;
+    position:sticky;
+    bottom: 70%;
+    border: 3px solid black;
+  }
+  .div2{
+    background-color: azure;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+    box-sizing: border-box;
+    position:sticky;
+    bottom: 70%;
+    left: 500px ;
+    border: 3px solid black;
+  }
